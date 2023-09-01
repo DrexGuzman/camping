@@ -1,0 +1,39 @@
+/* custom properties */
+:root {
+    /* las varibles inician con -- 
+    iniciar con un prefijo ejemplo ff:font family, fs:font-size, fw:font-weight*/
+
+    /* Font-family */
+
+    --ff-main: 'Archivo', sans-serif;
+    --ff-secondary:'Roboto', sans-serif;
+
+    /* font-size */
+    --fs-xl:5rem; /*80px*/
+    --fs-lg:2.5rem; /*40px*/
+    --fs-md:1.125rem; /*18px*/
+    --fs-nm:1rem; /*16px*/
+    --fs-sm:0.875rem; /*14px*/
+
+    /* font- weight */
+
+    --fw-bk:900;
+    --fw-rg:400;
+    --fw-md:500;
+
+    /* colors */
+
+    --clr-main: hsla(12, 76%, 61%, 1);
+    --clr-main-bg: hsla(15, 44%, 96%, 1);
+    --clr-inner-bg: hsla(12, 67%, 92%, 1);
+    --clr-white:  rgb(255, 255, 255);
+    --clr-gray: hsla(0,0%,55%,.1);
+    --clr-gary-text: hsla(0,0%,55%,1);
+    --clr-black: hsla(0, 0%, 0%, 1);
+
+
+}
+h1{
+    font-family: 'Archivo', sans-serif;
+
+}
