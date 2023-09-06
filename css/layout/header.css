@@ -1,0 +1,12 @@
+.hero-container{
+    background: url(../imgs/header-camping.webp);
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 6rem;
+    border-bottom-right-radius: 6rem;
+    color: var(--clr-white);
+    height: min(57rem, 60rem, 65rem);
+    text-align: center;
+    width: 100%;
+    
+}

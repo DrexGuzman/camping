@@ -1,0 +1,21 @@
+.subscribe-form{
+    background: var(--clr-white);
+    display: flex;
+    border-radius: 1rem;
+    padding: 1rem;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.email{
+    border: none;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+/* esto es para quitar el borde del email en una pseudoclaso pero no se recomienda por temas de accesibilidad por lo que se utilizo un borde de otro color con una transicion*/
+.email:focus{
+    outline: none;
+    box-shadow: 0 0 0 .1rem var(--clr-main);
+    transition: box-shadow 0.3s ease;
+}

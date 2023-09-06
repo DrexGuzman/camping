@@ -1,0 +1,82 @@
+.btn{
+    align-items: center;
+    background: var(--clr-main);
+    border-radius: 1.5rem;
+    display: flex;
+    padding: 0.5rem 2rem;    
+}
+
+.like-btn{
+    position: absolute;
+    background: var(--clr-white);
+    border-radius: .5rem;
+    border: none;
+    top: 1rem;
+    right: 2rem;
+}
+
+.view-all-btn{
+    background: var(--clr-main-bg);
+    color: var(--clr-main);
+    margin-top: 1rem;
+    border: 0.1rem solid var(--clr-main);
+    text-decoration: none;
+}
+
+.activity-price{
+    display: block;
+    position: absolute;
+    background: var(--clr-white);
+    color: var(--clr-main);
+    text-align: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: .5rem 2rem;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0); 
+}
+
+.read-btn{
+    display: block;
+    width: 50%;
+    margin: auto;
+    background: var(--clr-gray);
+    color: var(--clr-gray-text);
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+}
+
+.activity-image{
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.summit-btn{
+    background: url(../imgs/icons/send.svg) var(--clr-main);
+    border: none;
+    background-repeat: no-repeat;
+    border-radius: 0.75rem;
+    background-position: center;
+    padding: 0.75rem 1.25rem;
+    cursor: pointer;
+}
+
+.activity-thumb{
+    display: flex;
+    position: relative;
+    padding: 0 1rem;
+}
+
+.activity-icon{
+    margin: auto;
+}
+
+.subscribe-image{
+    display: block;
+    margin: auto;
+    width: 75%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

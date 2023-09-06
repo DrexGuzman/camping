@@ -1,0 +1,44 @@
+.activities-container{
+    display: grid;
+    width: 80vw;
+    margin: 2rem auto;
+    /* esto permite que el diseño deñ grip que esta en fila pase a columnas, que encaje que puede ser que alcance en un rango en una sola fraccion, si el tamaño se extiende de mas, pasa a la siguiente fila */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.activity{
+    display: grid;
+    background: var(--clr-white);
+    border-radius: 2rem;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.in-touch{
+    display: grid;
+    align-items: center;
+    align-content: center;
+    margin-left: 3rem;
+}
+
+.subscribe{
+    /* padding: 2rem 6rem; */
+    border-radius: 2rem;
+    background: var(--clr-inner-bg);
+}
+
+.cta-app-container{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.destination-container{
+    text-align: center;
+}
+.cta-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
